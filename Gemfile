@@ -19,6 +19,10 @@ end
 
 gem 'jquery-rails', '2.0.2'
 
+group :production do
+	gem 'pg', '0.12.2'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
